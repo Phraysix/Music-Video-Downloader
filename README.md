@@ -1,7 +1,10 @@
 # Music Video Downloader
+<<<<<<< HEAD
 
 ![License](https://img.shields.io/github/license/Phraysix/Music-Video-Downloader)
 ![Latest release](https://img.shields.io/github/v/release/Phraysix/Music-Video-Downloader)
+=======
+>>>>>>> af61756e83f4fdb08590018dcaffb0e415794b1a
 
 A Windows desktop app for downloading videos and music from YouTube and YouTube Music.
 Download as MP3 or MP4, single videos or whole playlists in bulk.
