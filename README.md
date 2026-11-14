@@ -1,6 +1,5 @@
 # Music Video Downloader
-
-![License](https://img.shields.io/github/license/Phraysix/Music-Video-Downloader)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Latest release](https://img.shields.io/github/v/release/Phraysix/Music-Video-Downloader)
 =======
 
