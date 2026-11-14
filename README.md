@@ -1,4 +1,4 @@
-# Müzik İndirici (Music Downloader)
+# Music Video Downloader
 
 A Windows desktop app for downloading videos and music from YouTube and YouTube Music.
 Download as MP3 or MP4, single videos or whole playlists in bulk.
