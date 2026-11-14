@@ -1,7 +1,12 @@
-# Müzik İndirici (Music Downloader)
+# Music Video Downloader
+
+![License](https://img.shields.io/github/license/Phraysix/Music-Video-Downloader)
+![Latest release](https://img.shields.io/github/v/release/Phraysix/Music-Video-Downloader)
 
 A Windows desktop app for downloading videos and music from YouTube and YouTube Music.
 Download as MP3 or MP4, single videos or whole playlists in bulk.
+
+![Screenshot](docs/screenshot.png)
 
 > **Disclaimer:** This software is intended only for downloading your own content,
 > royalty-free / Creative Commons licensed content, or content you otherwise have the right to download.
@@ -20,7 +25,7 @@ Download as MP3 or MP4, single videos or whole playlists in bulk.
 - Detailed `hata_kaydi.txt` (error log) written to the download folder when something fails
 
 ## Download (ready-made exe)
-1. Download the latest `MuzikIndirici.exe` from the **Releases** section.
+1. Go to the [latest release](https://github.com/Phraysix/Music-Video-Downloader/releases/latest) and download `MuzikIndirici.exe`.
 2. Double-click it. No installation needed; ffmpeg and Deno are bundled inside the exe.
 3. If Windows SmartScreen shows an "unknown publisher" warning, click "More info" and then "Run anyway".
    This is expected because the exe is not code-signed.
@@ -49,6 +54,8 @@ The interface is currently in Turkish. Here is what the main labels mean:
 ## Run from source
 Requires Python 3.10 or newer.
 ```
+git clone https://github.com/Phraysix/Music-Video-Downloader.git
+cd Music-Video-Downloader
 pip install -U -r requirements.txt
 python app.py
 ```
@@ -76,6 +83,11 @@ The repository does not contain ffmpeg or Deno (the files are too large). Add th
 - **Downloads suddenly fail:** YouTube changes often. Click "Update yt-dlp" (top right) and restart the app.
 - **Speed:** Increase "Concurrent downloads" (2-4). Turning off cover-art embedding also helps.
 - The exe is about 250-300 MB because ffmpeg and Deno are bundled, and the first launch takes a few seconds.
+
+## Reporting problems
+Found a bug? [Open an issue](https://github.com/Phraysix/Music-Video-Downloader/issues) and include the
+relevant part of `hata_kaydi.txt` from your download folder. **Check it before posting:** the log can contain
+file paths with your Windows username, so remove anything personal first.
 
 ## License
 MIT. For bundled third-party components, see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
